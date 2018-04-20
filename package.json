@@ -1,0 +1,23 @@
+{
+  "name": "cfc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukasMusebrink/cfc.git"
+  },
+  "author": "LukasMusebrink",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukasMusebrink/cfc/issues"
+  },
+  "homepage": "https://github.com/LukasMusebrink/cfc#readme",
+  "bin":{
+    "cfc": "./bin/global.js"
+  },
+   "preferGlobal": true
+}

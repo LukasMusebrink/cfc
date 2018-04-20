@@ -1,0 +1,37 @@
+{
+  "extends": ["strict"],
+  "rules": {
+    "indent": ["error", 2],
+    "quotes": ["error", "double"],
+    "linebreak-style": "off",
+    "array-bracket-newline": "off",
+    "array-bracket-spacing": ["error", "never"],
+    "no-trailing-spaces": "off",
+    "padded-blocks": "off",
+    "arrow-body-style": "off",
+    "filenames/match-regex": [2, "^[a-zA-Z_]+$", true],
+    "filenames/match-exported": [2, "^[a-zA-Z_]+$", true],
+    "init-declarations": "off",
+    "keyword-spacing": [0, {"before": true, "after": true, "overrides": null}],
+    "prefer-template": "off",
+    "id-blacklist": "off",
+    "no-console": "off",
+    "complexity": "off",
+    "max-statements": "off",
+    "array-element-newline": "off",
+    "no-process-env": "off",
+    "id-match": "off",
+    "camelcase": "off",
+    "id-length":["error", { "min": 1 }],
+    "no-return-await": "off",
+    "max-depth": off,
+    "prefer-const": "off",
+    "func-style": ["error", "declaration", {"allowArrowFunctions": true}],
+    "max-len": "off",
+    "no-magic-numbers": "off"
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 8
+  }
+}
