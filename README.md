@@ -8,7 +8,9 @@ $ npm install cfc -g
 
 ## Usage
 ### Exemplary Project Structure
-![alt text](https://github.com/LukasMusebrink/cfc/raw/master/samples/img/folder.png "Logo Title Text 1")
+![project structure](https://github.com/LukasMusebrink/cfc/raw/master/samples/img/folder.png "Logo Title Text 1")
+
+
 
 ### Executing
 ```sh
