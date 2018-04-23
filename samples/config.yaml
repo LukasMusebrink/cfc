@@ -1,1 +1,6 @@
-SnippetA: samples/snippet-a.yaml
+SnippetA:
+  Template: samples/snippet-a.yaml
+SnippetB:
+  Template: samples/snippet-a.yaml
+ValueA:
+  Value: MyStaticValue

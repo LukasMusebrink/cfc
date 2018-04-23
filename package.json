@@ -21,8 +21,12 @@
   },
   "preferGlobal": true,
   "dependencies": {
+    "detect-indent": "^5.0.0",
     "js-yaml": "^3.11.0",
+    "line-read": "^1.0.1",
     "lodash": "^4.17.5",
+    "moment": "^2.22.1",
+    "n-readlines": "^0.2.8",
     "yargs": "^11.0.0"
   }
 }

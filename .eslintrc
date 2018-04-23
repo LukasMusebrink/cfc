@@ -12,6 +12,7 @@
     "filenames/match-regex": [2, "^[a-zA-Z_]+$", true],
     "filenames/match-exported": [2, "^[a-zA-Z_]+$", true],
     "init-declarations": "off",
+    "comma-dangle": "off",
     "keyword-spacing": [0, {"before": true, "after": true, "overrides": null}],
     "prefer-template": "off",
     "id-blacklist": "off",
@@ -28,7 +29,8 @@
     "prefer-const": "off",
     "func-style": ["error", "declaration", {"allowArrowFunctions": true}],
     "max-len": "off",
-    "no-magic-numbers": "off"
+    "no-magic-numbers": "off",
+    "no-sync": off
   },
   "parserOptions": {
     "sourceType": "module",
