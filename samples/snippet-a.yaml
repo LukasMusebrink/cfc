@@ -1,0 +1,4 @@
+Fn::Base64: !Sub |
+  #!/bin/bash
+  echo "Testing Userdata" > ${FilePath}
+  chown ec2-user.ec2-user ${FilePath}

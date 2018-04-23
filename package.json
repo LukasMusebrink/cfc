@@ -16,8 +16,13 @@
     "url": "https://github.com/LukasMusebrink/cfc/issues"
   },
   "homepage": "https://github.com/LukasMusebrink/cfc#readme",
-  "bin":{
-    "cfc": "./bin/global.js"
+  "bin": {
+    "cfc": "index.js"
   },
-   "preferGlobal": true
+  "preferGlobal": true,
+  "dependencies": {
+    "js-yaml": "^3.11.0",
+    "lodash": "^4.17.5",
+    "yargs": "^11.0.0"
+  }
 }
