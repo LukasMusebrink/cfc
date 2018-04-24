@@ -1,6 +1,6 @@
 SnippetA:
   Template: snippet-a.yaml
 SnippetB:
-  Template: snippet-a.yaml
+  Template: snippet-b.yaml
 ValueA:
   Value: MyStaticValue

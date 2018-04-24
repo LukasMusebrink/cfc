@@ -7,7 +7,7 @@ Resources:
     Properties:
       ImageId: ami-c481fad3
       InstanceType: t2.nano
-      KeyName: keypair
+      KeyName: !CFC ValueA
       BlockDeviceMappings:
         -
           DeviceName: /dev/sdm
