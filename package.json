@@ -1,7 +1,7 @@
 {
   "name": "cfc",
   "version": "1.0.0",
-  "description": "",
+  "description": "CFC - CloudFormation Compiler - A simple tool that helps you compile static variables or snippets in your AWS CloudFormation template.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,5 +27,6 @@
     "moment": "^2.22.1",
     "n-readlines": "^0.2.8",
     "yargs": "^11.0.0"
-  }
+  },
+  "keywords":["AWS CloudFormation", "AWS", "CloudFormation", "CF", "CFC", "CloudFormation Template", "YAML", "Compile", "Compiler", "Lambda", "Snippets"]
 }
