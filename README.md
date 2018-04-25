@@ -1,6 +1,8 @@
 # CFC - AWS CloudFormation Compiler
 [![Known Vulnerabilities](https://snyk.io/test/github/LukasMusebrink/cfc/badge.svg)](https://snyk.io/test/github/LukasMusebrink/cfc)
 
+[![NPM](https://nodei.co/npm/cfc.png?compact=true)](https://nodei.co/npm/cfc/)
+
 *Please note: currently only YAML is supported*
 ## Description
 CFC - CloudFormation Compiler - A simple tool that helps you "compile" static variables or snippets in your AWS CloudFormation template.
