@@ -1,7 +1,5 @@
 # CFC - AWS CloudFormation Compiler
-- https://coveralls.io/sign-up
-- https://snyk.io/
-- https://travis-ci.org/
+[![Known Vulnerabilities](https://snyk.io/test/github/LukasMusebrink/cfc/badge.svg)](https://snyk.io/test/github/LukasMusebrink/cfc)
 
 *Please note: currently only YAML is supported*
 ## Description
