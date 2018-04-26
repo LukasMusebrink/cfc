@@ -1,4 +1,5 @@
 # CFC - AWS CloudFormation Compiler
+[![DavidDM](https://david-dm.org/LukasMusebrink/cfc.svg)](https://david-dm.org/LukasMusebrink/cfc.svg)
 [![Known Vulnerabilities](https://snyk.io/test/github/LukasMusebrink/cfc/badge.svg)](https://snyk.io/test/github/LukasMusebrink/cfc)
 
 [![NPM](https://nodei.co/npm/cfc.png?compact=true)](https://nodei.co/npm/cfc/)
@@ -39,6 +40,7 @@ The configuration is described in yaml. You can define a "Template" or a "Value"
 
 For Templates: Please make sure that the file paths are accessible from the execution location.
 
+
 ```yaml
 SnippetA:
   Template: snippet-a.yaml
@@ -47,7 +49,17 @@ ValueA:
 ```
 
 #### Source template
-Reference defined "Values" or "Templates" using *!CFC [Name-Used-In-Configuration]*
+Reference defined "Values" or "Templates" using:
+- !CFC [Name-Used-In-Configuration]
+
+Furthermore you have the possibility to use functions inside your source template.
+
+- !CFC uuidv4()
+  - uuidv4 (random) e.g.: *416ac246-e7ac-49ff-93b4-f7e94d997e6b*
+- !CFC randomString(length)
+ - generates a random alphanumeric string of a given length
+- !CFC timestamp()
+  - current timestamp e.g.: *Thu Apr 26 2018 22:29:56 GMT+0200 (CEST)*
 
 ```yaml
 AWSTemplateFormatVersion: 2010-09-09
@@ -68,6 +80,13 @@ Resources:
             VolumeSize: 10
       UserData:
         !CFC SnippetA
+    Tags:
+      - Key: Name
+        Value: !CFC uuidv4()
+      - Key: Timestamp
+        Value: !CFC  timestamp()
+      - Key: RandomString
+        Value: !CFC randomString(10)
 ```
 ## Contribute
 Feel free to contribute ;)
