@@ -18,12 +18,12 @@ Resources:
         !CFC SnippetA
     Tags:
       - Key: Name
-        Value: !CFC uuidv4()
+        Value: !CFC uuidv4() !CFC randomString(10)
       - Key: Timestamp
         Value: !CFC  timestamp()
       - Key: RandomString
         Value: !CFC randomString(10)
-        
+
   LambdaExecutionRole:
     Type: AWS::IAM::Role
     Properties:
