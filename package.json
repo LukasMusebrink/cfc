@@ -1,6 +1,6 @@
 {
   "name": "cfc",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CFC - CloudFormation Compiler - A simple tool that helps you compile static variables or snippets in your AWS CloudFormation template.",
   "main": "index.js",
   "scripts": {
