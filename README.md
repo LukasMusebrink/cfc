@@ -59,7 +59,7 @@ Furthermore you have the possibility to use functions inside your source templat
 - !CFC randomString(length)
  - generates a random alphanumeric string of a given length
 - !CFC timestamp()
-  - current timestamp e.g.: *Thu Apr 26 2018 22:29:56 GMT+0200 (CEST)*
+  - current timestamp e.g.: *1530210906*
 
 ```yaml
 AWSTemplateFormatVersion: 2010-09-09
