@@ -4,7 +4,9 @@
   "description": "CFC - CloudFormation Compiler - A simple tool that helps you compile static variables or snippets in your AWS CloudFormation template.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -28,7 +30,8 @@
     "n-readlines": "^1.0.0",
     "pm": "^2.2.6",
     "uuid": "^3.2.1",
-    "yargs": "^11.0.0"
+    "yargs": "^11.0.0",
+    "snyk": "^1.87.0"
   },
   "keywords": [
     "AWS CloudFormation",
@@ -46,5 +49,6 @@
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^5.1.1"
-  }
+  },
+  "snyk": true
 }
