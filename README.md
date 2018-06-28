@@ -1,6 +1,8 @@
 # CFC - AWS CloudFormation Compiler
 [![DavidDM](https://david-dm.org/LukasMusebrink/cfc.svg)](https://david-dm.org/LukasMusebrink/cfc.svg)
 [![Known Vulnerabilities](https://snyk.io/test/github/LukasMusebrink/cfc/badge.svg)](https://snyk.io/test/github/LukasMusebrink/cfc)
+[![Travis Build](https://travis-ci.org/LukasMusebrink/cfc.svg?branch=master)](https://travis-ci.org/LukasMusebrink/cfc?branch=master)
+
 
 [![NPM](https://nodei.co/npm/cfc.png?compact=true)](https://nodei.co/npm/cfc/)
 
