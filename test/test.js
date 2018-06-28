@@ -29,9 +29,9 @@ describe('compileLine()', function() {
     let result4 = compileLine(sampleLine4, configKeys, configDocument, [], 0, 0);
     let result5 = compileLine(sampleLine5, configKeys, configDocument, [], 0, 0)
 
-    // expect(result1).to.match();
+    expect(result1).to.match(/        Value: [0-9]{10}/);
     expect(result2).to.match(/        Value: .{10,10}/);
-    // expect(result3).to.match();
+    expect(result3).to.match(/        Value: [0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12} .{10,10}/);
     expect(result4).to.equal("      KeyName: MyStaticValue");
     expect(result5).to.equal("      KeyName: !CFC ValueB");
 
