@@ -59,3 +59,4 @@ typings/
 
 .DS_Store
 samples/target.yaml
+samples/xyz/abc.yaml
