@@ -28,7 +28,7 @@
     "n-readlines": "^1.0.0",
     "pm": "^2.2.6",
     "uuid": "^3.2.1",
-    "yargs": "^11.0.0"
+    "yargs": "^13.1.0"
   },
   "keywords": [
     "AWS CloudFormation",
